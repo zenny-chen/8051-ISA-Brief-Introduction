@@ -199,7 +199,7 @@ XRAM的头256字节可以使用`MOVX A, @R0`、`MOVX A, @R1`，`MOVX @R0, A`以�
 
 ● **`ACALL`** ：该指令具有2个字节，需要2个周期执行。其用法为：
 
-```.a51
+```asm
 ACALL    LABEL
 ```
 
